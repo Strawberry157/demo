@@ -9,4 +9,9 @@ public class HelloController {
     public Object hello(){
         return "HelloWorld";
     }
+
+    @RequestMapping("/hello1")
+    public Object hello1(){
+        return "HelloWorld1";
+    }
 }
